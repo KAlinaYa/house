@@ -61,3 +61,37 @@ body {
   border: none;
   background-color: transparent;
 }
+.hero {
+}
+.hero__row {
+  display: flex;
+  gap: 30px;
+}
+.hero__img {
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.hero__title {
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 1.1;
+}
+.hero__title span {
+  color: #598d66;
+}
+.hero__description {
+  color: #86928b;
+  margin-bottom: 60px;
+}
+.hero__btn {
+  font-size: 20px;
+  color: #598d66;
+  border: 1px solid #598d66;
+  background-color: transparent;
+  padding: 21px 60px;
+}
