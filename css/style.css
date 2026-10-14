@@ -4,6 +4,9 @@ body {
   font-size: 18px;
   line-height: 1.5;
 }
+.none {
+  display: none;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -28,9 +31,11 @@ body {
 .header__row {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 60px;
 }
 .header__logo {
+  flex-shrink: 0;
   margin-right: auto;
 }
 .menu__list {
@@ -121,4 +126,25 @@ body {
   margin-bottom: 44px;
 }
 .our-team__persons-img {
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 33px;
+  }
+  .header__logo {
+    padding-bottom: 16px;
+    width: 100%;
+    border-bottom: 1px solid #c3d1c6;
+  }
+
+  .header__logo svg {
+    margin-inline: auto;
+  }
+  .menu {
+    margin-right: auto;
+  }
+  .header__row {
+    gap: 16px;
+  }
 }
