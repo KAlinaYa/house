@@ -148,3 +148,23 @@ body {
     gap: 16px;
   }
 }
+@media (max-width: 320px) {
+  .hero {
+    padding-block: 60px;
+  }
+  .hero__img {
+    display: none;
+  }
+  .hero__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .hero__description {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  .hero__btn {
+    font-style: 18px;
+    padding: 14.5px 29px;
+  }
+}
