@@ -127,6 +127,65 @@ body {
 }
 .our-team__persons-img {
 }
+.tabs {
+}
+.reproductions__tabs {
+}
+.reproductions__title {
+}
+.tabs-header {
+}
+.tab-btn {
+}
+.active {
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+.reproductions__item {
+  max-width: 350px;
+  padding: 20px;
+  background-color: #e1ede6;
+}
+.reproductions__img {
+  margin-bottom: 20px;
+}
+.reproductions__content {
+}
+.reproductions__artist {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #86928b;
+}
+.reproductions__name {
+  font-size: 30px;
+  color: #2c2d35;
+  margin-bottom: 8px;
+}
+.reproductions__materials {
+  font-size: 18px;
+  color: #2c2d35;
+  margin-bottom: 30px;
+}
+.reproductions__price {
+  font-size: 24px;
+  color: #598d66;
+  margin-bottom: 20px;
+}
+.reproductions__btn {
+  width: 100%;
+  font-size: 20px;
+  color: #598d66;
+  border: 1px solid #598d66;
+  background-color: transparent;
+  height: 65px;
+}
 
 @media (max-width: 576px) {
   .container {
